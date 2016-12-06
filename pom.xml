@@ -1,0 +1,52 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+	<modelVersion>4.0.0</modelVersion>
+
+	<groupId>info.kuechler.ari.doc.lineatur</groupId>
+	<artifactId>lineatur</artifactId>
+	<version>0.0.1-SNAPSHOT</version>
+	<packaging>pom</packaging>
+
+	<name>Lineatur generation</name>
+
+	<properties>
+		<project.java.version>1.8</project.java.version>
+		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+	</properties>
+
+	<build>
+		<plugins>
+		
+			<plugin>
+				<groupId>net.trajano.mojo</groupId>
+				<artifactId>batik-maven-plugin</artifactId>
+				<version>1.1.1</version>
+				<executions>
+					<execution>
+						<id>pdf-generate</id>
+						<phase>generate-resources</phase>
+						<goals>
+							<goal>rasterizer</goal>
+						</goals>
+						<configuration>
+							<mimeType>application/pdf</mimeType>
+							<destDir>${project.build.directory}</destDir>
+						</configuration>
+					</execution>
+					<execution>
+						<id>png-generate</id>
+						<phase>generate-resources</phase>
+						<goals>
+							<goal>rasterizer</goal>
+						</goals>
+						<configuration>
+							<mimeType>image/png</mimeType>
+							<destDir>${project.build.directory}</destDir>
+						</configuration>
+					</execution>
+				</executions>
+			</plugin>
+
+		</plugins>
+	</build>
+</project>
