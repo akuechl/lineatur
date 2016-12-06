@@ -1,2 +1,2 @@
-# Lineatur [![Build Status](https://travis-ci.org/admiralsmaster/lineatur.svg?branch=master)](https://travis-ci.org/admiralsmaster/lineatur) [![Codacy Badge](https://api.codacy.com/project/badge/Grade/1771a7bfbaef45f281e08ebee8fc2d10)](https://www.codacy.com/app/github-ariel/lineatur?utm_source=github.com&amp;utm_medium=referral&amp;utm_content=admiralsmaster/lineatur&amp;utm_campaign=Badge_Grade)
+# Lineatur [![Build Status](https://travis-ci.org/admiralsmaster/lineatur.svg?branch=master)](https://travis-ci.org/admiralsmaster/lineatur)
 Druckvorlagen für Lineaturen.
