@@ -1,2 +1,0 @@
-# lineatur
-Druckvorlagen für Lineaturen.
