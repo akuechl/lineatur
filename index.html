@@ -12,13 +12,16 @@
 		h4 {
 			margin-top: 3em;
 		}
-		rect {
+		svg rect, svg line {
 			fill:none;
 			stroke:#000;
 			stroke-width:0.3px;
 		}
-		rect + rect {
+		svg.line rect + rect {
 			stroke-width:1.1px;
+		}
+		a.btn {
+			margin-top: .5em;
 		}
 	</style>
 </head>
@@ -28,42 +31,74 @@
 		
 		<h3>Verhältnis 1:1:1 <small>Sütterlinschrift</small></h3>
 		<p>Auch verwendet als Vorlage für die <a href="https://de.wikipedia.org/wiki/Schulausgangsschrift">Schulausgangsschrift („SAS“)</a> ab <strong>Klasse 1</strong>.</p>
-		<svg width="200" height="80">
+		<svg width="200" height="80" class="line">
 			<rect x="2" y="30" width="200" height="20" />
 			<rect x="2" y="10" width="200" height="60" />
 		</svg>
-		<p><a class="btn btn-default" href="https://github.com/admiralsmaster/lineatur/releases/download/v1.0.0/1_1_1.pdf">PDF Download</a></p>
+		<p>
+			<a class="btn btn-default" href="https://github.com/admiralsmaster/lineatur/releases/download/v1.1.0/1_1_1.pdf">PDF Download 15mm</a>
+			<a class="btn btn-default" href="https://github.com/admiralsmaster/lineatur/releases/download/v1.1.0/1_1_1-13mm.pdf">PDF Download 13mm</a>
+		</p>
 		
 		<h3>Verhältnis 3:4:3 <small>Offenbacher Schrift, Lateinische Ausgangsschrift</small></h3>
 		<p>Auch verwendet als Vorlage für die <a href="https://de.wikipedia.org/wiki/Vereinfachte_Ausgangsschrift">Vereinfachte Ausgangsschrift</a> ab <strong>Klasse 1</strong>.</p>
-		<svg width="200" height="80">
+		<svg width="200" height="80" class="line">
 			<rect x="2" y="28" width="200" height="24" />
 			<rect x="2" y="10" width="200" height="60" />
 		</svg>
-		<p><a class="btn btn-default" href="https://github.com/admiralsmaster/lineatur/releases/download/v1.0.0/3_4_3.pdf">PDF Download</a></p>
+		<p>
+			<a class="btn btn-default" href="https://github.com/admiralsmaster/lineatur/releases/download/v1.1.0/3_4_3.pdf">PDF Download 15mm</a>
+			<a class="btn btn-default" href="https://github.com/admiralsmaster/lineatur/releases/download/v1.1.0/3_4_3-13mm.pdf">PDF Download 13mm</a>
+		</p>
 				
 		<h3>Verhältnis 2:3:2 <small>Offenbacher Schrift</small></h3>
-		<svg width="200" height="80">
+		<svg width="200" height="80" class="line">
 			<rect x="2" y="27.14" width="200" height="25.71" />
 			<rect x="2" y="10" width="200" height="60" />
 		</svg>
-		<p><a class="btn btn-default" href="https://github.com/admiralsmaster/lineatur/releases/download/v1.0.0/2_3_2.pdf">PDF Download</a></p>
+		<p>
+			<a class="btn btn-default" href="https://github.com/admiralsmaster/lineatur/releases/download/v1.1.0/2_3_2.pdf">PDF Download 15mm</a>
+			<a class="btn btn-default" href="https://github.com/admiralsmaster/lineatur/releases/download/v1.1.0/2_3_2-13mm.pdf">PDF Download 13mm</a>
+		</p>
 		
 		<h3>Verhältnis 2:1:2 <small>Deutsche Kurrentschrift</small></h3>
-		<svg width="200" height="80">
+		<svg width="200" height="80" class="line">
 			<rect x="2" y="34" width="200" height="12" />
 			<rect x="2" y="10" width="200" height="60" />
 		</svg>
-		<p><a class="btn btn-default" href="https://github.com/admiralsmaster/lineatur/releases/download/v1.0.0/2_1_2.pdf">PDF Download</a></p>
+		<p>
+			<a class="btn btn-default" href="https://github.com/admiralsmaster/lineatur/releases/download/v1.1.0/2_1_2.pdf">PDF Download 15mm</a>
+			<a class="btn btn-default" href="https://github.com/admiralsmaster/lineatur/releases/download/v1.1.0/2_1_2-13mm.pdf">PDF Download 13mm</a>
+		</p>
 		
-		<h4>Eigenschaften der Downloads</h4>
+		<h3>Karriert <small>7mm x 5mm</small></h3>
+		<svg width="200" height="80" class="checkered">
+			<line x1="0" y1="0" x2="200" y2="0" />
+			<line x1="0" y1="25" x2="200" y2="25" />
+			<line x1="0" y1="50" x2="200" y2="50" />
+			<line x1="0" y1="0" x2="0" y2="65" />
+			<line x1="20" y1="0" x2="20" y2="65" />
+			<line x1="40" y1="0" x2="40" y2="65" />
+			<line x1="60" y1="0" x2="60" y2="65" />
+			<line x1="80" y1="0" x2="80" y2="65" />
+			<line x1="100" y1="0" x2="100" y2="65" />
+			<line x1="120" y1="0" x2="120" y2="65" />
+			<line x1="140" y1="0" x2="140" y2="65" />
+			<line x1="160" y1="0" x2="160" y2="65" />
+			<line x1="180" y1="0" x2="180" y2="65" />
+		</svg>
+		<p>
+			<a class="btn btn-default" href="https://github.com/admiralsmaster/lineatur/releases/download/v1.1.0/5x7.pdf">PDF Download</a>
+		</p>
+		
+		<h3>Gemeinsame Eigenschaften</h3>
 		<dl class="dl-horizontal">
 			<dt>Format</dt>
 			<dd>A4-Blatt hochkant</dd>
 			<dt>Zeilenanzahl</dt>
 			<dd>14 Zeilen</dd>
 			<dt>Zeilenhöhe</dt>
-			<dd>15mm</dd>
+			<dd>15mm / 13mm</dd>
 			<dt>Rand</dt>
 			<dd>25mm, unten: mind. 30mm</dd>
 			<dt>Lineatur</dt>
