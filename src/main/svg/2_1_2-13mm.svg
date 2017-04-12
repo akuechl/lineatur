@@ -2,12 +2,12 @@
 <!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1 Tiny//EN"	"http://www.w3.org/Graphics/SVG/1.1/DTD/svg11-tiny.dtd">
 <svg width="210mm" height="297mm" viewBox="-25 -25 210 297" version="1.1"
 	xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
-	<title>Lineatur 1:1:1</title>
-	<desc>A4-Blatt mit Lineatur 1:1:1, Sütterlinschrift, 14 Zeilen, 15mm hohe Zeilen</desc>
+	<title>Lineatur 2:1:2</title>
+	<desc>A4-Blatt mit Lineatur 2:1:2, Deutsche Kurrentschrift, 14 Zeilen, 13mm hohe Zeilen</desc>
 	<defs>
 		<g id="line">
-			<rect x="0" y="5" width="160" height="5"  fill="none" stroke="#000" stroke-width="0.01mm" />
-			<rect x="0" y="0" width="160" height="15" fill="none" stroke="#000" stroke-width="0.05mm" />
+			<rect x="0" y="5.2" width="160" height="2.5" fill="none" stroke="#000" stroke-width="0.01mm" />
+			<rect x="0" y="0" width="160" height="13"    fill="none" stroke="#000" stroke-width="0.05mm" />
 		</g>
 	</defs>
 	<use xlink:href="#line" />
