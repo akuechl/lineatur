@@ -2,8 +2,8 @@
 <!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1 Tiny//EN"	"http://www.w3.org/Graphics/SVG/1.1/DTD/svg11-tiny.dtd">
 <svg width="210mm" height="297mm" viewBox="-25 -25 210 297" version="1.1"
 	xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
-	<title>Lineatur kariert 7x5mm</title>
-	<desc>A4-Blatt kariert, 7mm x 5mm</desc>
+	<title>Lineatur kariert 5mm</title>
+	<desc>A4-Blatt kariert, 5mm x 5mm</desc>
 	<defs>
 		<g id="line">
 			<line x1="0" y1="0" x2="160" y2="0" stroke="#000" stroke-width="0.01mm" />
@@ -14,40 +14,54 @@
 	</defs>
 	
 	<use y="0" xlink:href="#line" />
-	<use y="7" xlink:href="#line" />
-	<use y="14" xlink:href="#line" />
-	<use y="21" xlink:href="#line" />
-	<use y="28" xlink:href="#line" />
+	<use y="5" xlink:href="#line" />
+	<use y="10" xlink:href="#line" />
+	<use y="15" xlink:href="#line" />
+	<use y="20" xlink:href="#line" />
+	<use y="25" xlink:href="#line" />
+	<use y="30" xlink:href="#line" />
 	<use y="35" xlink:href="#line" />
-	<use y="42" xlink:href="#line" />
-	<use y="49" xlink:href="#line" />
-	<use y="56" xlink:href="#line" />
-	<use y="63" xlink:href="#line" />
+	<use y="40" xlink:href="#line" />
+	<use y="45" xlink:href="#line" />
+	<use y="50" xlink:href="#line" />
+	<use y="55" xlink:href="#line" />
+	<use y="60" xlink:href="#line" />
+	<use y="65" xlink:href="#line" />
 	<use y="70" xlink:href="#line" />
-	<use y="77" xlink:href="#line" />
-	<use y="84" xlink:href="#line" />
-	<use y="91" xlink:href="#line" />
-	<use y="98" xlink:href="#line" />
+	<use y="75" xlink:href="#line" />
+	<use y="80" xlink:href="#line" />
+	<use y="85" xlink:href="#line" />
+	<use y="90" xlink:href="#line" />
+	<use y="95" xlink:href="#line" />
+	<use y="100" xlink:href="#line" />
 	<use y="105" xlink:href="#line" />
-	<use y="112" xlink:href="#line" />
-	<use y="119" xlink:href="#line" />
-	<use y="126" xlink:href="#line" />
-	<use y="133" xlink:href="#line" />
+	<use y="110" xlink:href="#line" />
+	<use y="115" xlink:href="#line" />
+	<use y="120" xlink:href="#line" />
+	<use y="125" xlink:href="#line" />
+	<use y="130" xlink:href="#line" />
+	<use y="135" xlink:href="#line" />
 	<use y="140" xlink:href="#line" />
-	<use y="147" xlink:href="#line" />
-	<use y="154" xlink:href="#line" />
-	<use y="161" xlink:href="#line" />
-	<use y="168" xlink:href="#line" />
+	<use y="145" xlink:href="#line" />
+	<use y="150" xlink:href="#line" />
+	<use y="155" xlink:href="#line" />
+	<use y="160" xlink:href="#line" />
+	<use y="165" xlink:href="#line" />
+	<use y="170" xlink:href="#line" />
 	<use y="175" xlink:href="#line" />
-	<use y="182" xlink:href="#line" />
-	<use y="189" xlink:href="#line" />
-	<use y="196" xlink:href="#line" />
-	<use y="203" xlink:href="#line" />
+	<use y="180" xlink:href="#line" />
+	<use y="185" xlink:href="#line" />
+	<use y="190" xlink:href="#line" />
+	<use y="195" xlink:href="#line" />
+	<use y="200" xlink:href="#line" />
+	<use y="205" xlink:href="#line" />
 	<use y="210" xlink:href="#line" />
-	<use y="217" xlink:href="#line" />
-	<use y="224" xlink:href="#line" />
-	<use y="231" xlink:href="#line" />
-	<use y="238" xlink:href="#line" />
+	<use y="215" xlink:href="#line" />
+	<use y="220" xlink:href="#line" />
+	<use y="225" xlink:href="#line" />
+	<use y="230" xlink:href="#line" />
+	<use y="235" xlink:href="#line" />
+	<use y="240" xlink:href="#line" />
 	<use y="245" xlink:href="#line" />
 
 	<use x="0" xlink:href="#row" />
