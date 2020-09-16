@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1 Tiny//EN"	"http://www.w3.org/Graphics/SVG/1.1/DTD/svg11-tiny.dtd">
+<svg width="210mm" height="297mm" viewBox="-25 -25 210 297" version="1.1"
+	xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+	<title>Millimeterpapier</title>
+	<desc>A4-Blatt mit Millimeterpapier</desc>
+	<defs>
+		<g id="lineS">
+			<line x1="0" y1="0" x2="160" y2="0" stroke="#000" stroke-width="0.005mm" />
+		</g>
+		<g id="lineM">
+			<line x1="0" y1="0" x2="160" y2="0" stroke="#000" stroke-width="0.02mm" />
+		</g>
+		<g id="lineB">
+			<line x1="0" y1="0" x2="160" y2="0" stroke="#000" stroke-width="0.03mm" />
+		</g>
+		<g id="rowS">
+			<line x1="0" y1="0" x2="0" y2="250" stroke="#000" stroke-width="0.005mm" />
+		</g>
+		<g id="rowM">
+			<line x1="0" y1="0" x2="0" y2="250" stroke="#000" stroke-width="0.02mm" />
+		</g>
+		<g id="rowB">
+			<line x1="0" y1="0" x2="0" y2="250" stroke="#000" stroke-width="0.03mm" />
+		</g>
+		<g id="column">
+			<use y="1" xlink:href="#lineS" />
+			<use y="2" xlink:href="#lineS" />
+			<use y="3" xlink:href="#lineS" />
+			<use y="4" xlink:href="#lineS" />
+			<use y="5" xlink:href="#lineM" />
+			<use y="6" xlink:href="#lineS" />
+			<use y="7" xlink:href="#lineS" />
+			<use y="8" xlink:href="#lineS" />
+			<use y="9" xlink:href="#lineS" />
+			<use y="10" xlink:href="#lineB" />
+		</g>
+		<g id="row">
+			<use x="1" xlink:href="#rowS" />
+			<use x="2" xlink:href="#rowS" />
+			<use x="3" xlink:href="#rowS" />
+			<use x="4" xlink:href="#rowS" />
+			<use x="5" xlink:href="#rowM" />
+			<use x="6" xlink:href="#rowS" />
+			<use x="7" xlink:href="#rowS" />
+			<use x="8" xlink:href="#rowS" />
+			<use x="9" xlink:href="#rowS" />
+			<use x="10" xlink:href="#rowB" />
+		</g>
+	</defs>
+	<use xlink:href="#lineB" />
+	<use xlink:href="#column" />
+	<use y="10" xlink:href="#column" />
+	<use y="20" xlink:href="#column" />
+	<use y="30" xlink:href="#column" />
+	<use y="40" xlink:href="#column" />
+	<use y="50" xlink:href="#column" />
+	<use y="60" xlink:href="#column" />
+	<use y="70" xlink:href="#column" />
+	<use y="80" xlink:href="#column" />
+	<use y="90" xlink:href="#column" />
+	<use y="100" xlink:href="#column" />
+	<use y="110" xlink:href="#column" />
+	<use y="120" xlink:href="#column" />
+	<use y="130" xlink:href="#column" />
+	<use y="140" xlink:href="#column" />
+	<use y="150" xlink:href="#column" />
+	<use y="160" xlink:href="#column" />
+	<use y="170" xlink:href="#column" />
+	<use y="180" xlink:href="#column" />
+	<use y="190" xlink:href="#column" />
+	<use y="200" xlink:href="#column" />
+	<use y="210" xlink:href="#column" />
+	<use y="220" xlink:href="#column" />
+	<use y="230" xlink:href="#column" />
+	<use y="240" xlink:href="#column" />
+	
+	<use xlink:href="#rowB" />
+	<use xlink:href="#row" />
+	<use x="10" xlink:href="#row" />
+	<use x="20" xlink:href="#row" />
+	<use x="30" xlink:href="#row" />
+	<use x="40" xlink:href="#row" />
+	<use x="50" xlink:href="#row" />
+	<use x="60" xlink:href="#row" />
+	<use x="70" xlink:href="#row" />
+	<use x="80" xlink:href="#row" />
+	<use x="90" xlink:href="#row" />
+	<use x="100" xlink:href="#row" />
+	<use x="110" xlink:href="#row" />
+	<use x="120" xlink:href="#row" />
+	<use x="130" xlink:href="#row" />
+	<use x="140" xlink:href="#row" />
+	<use x="150" xlink:href="#row" />
+</svg> 

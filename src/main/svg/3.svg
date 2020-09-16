@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1 Tiny//EN"	"http://www.w3.org/Graphics/SVG/1.1/DTD/svg11-tiny.dtd">
+<svg width="210mm" height="297mm" viewBox="-25 -25 210 297" version="1.1"
+	xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+	<title>Lineatur 3</title>
+	<desc>A4-Blatt mit Lineatur 3</desc>
+	<defs>
+		<g id="line">
+			<rect x="0" y="9.5" width="160" height="3.5" fill="none" stroke="#000" stroke-width="0.025mm" />
+		</g>
+	</defs>
+	<use xlink:href="#line" />
+	<use y="13" xlink:href="#line" />
+	<use y="26" xlink:href="#line" />
+	<use y="39" xlink:href="#line" />
+	<use y="52" xlink:href="#line" />
+	<use y="65" xlink:href="#line" />
+	<use y="78" xlink:href="#line" />
+	<use y="91" xlink:href="#line" />
+	<use y="104" xlink:href="#line" />
+	<use y="117" xlink:href="#line" />
+	<use y="130" xlink:href="#line" />
+	<use y="143" xlink:href="#line" />
+	<use y="156" xlink:href="#line" />
+	<use y="169" xlink:href="#line" />
+	<use y="182" xlink:href="#line" />
+	<use y="195" xlink:href="#line" />
+	<use y="208" xlink:href="#line" />
+	<use y="221" xlink:href="#line" />
+	<use y="234" xlink:href="#line" />
+</svg> 

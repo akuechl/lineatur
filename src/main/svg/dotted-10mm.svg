@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1 Tiny//EN"	"http://www.w3.org/Graphics/SVG/1.1/DTD/svg11-tiny.dtd">
+<svg width="210mm" height="297mm" viewBox="-25 -25 210 297" version="1.1"
+	xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+	<title>Gepunktet 10mm</title>
+	<desc>A4-Blatt mit Punkten in einem Abstand von 10mm</desc>
+	<defs>
+		<g id="circle">
+			<circle r="0.1" fill="#000" />
+		</g>
+		<g id="line">
+			<use xlink:href="#circle" />
+			<use x="10" xlink:href="#circle" />
+			<use x="20" xlink:href="#circle" />
+			<use x="30" xlink:href="#circle" />
+			<use x="40" xlink:href="#circle" />
+			<use x="50" xlink:href="#circle" />
+			<use x="60" xlink:href="#circle" />
+			<use x="70" xlink:href="#circle" />
+			<use x="80" xlink:href="#circle" />
+			<use x="90" xlink:href="#circle" />
+			<use x="100" xlink:href="#circle" />
+			<use x="110" xlink:href="#circle" />
+			<use x="120" xlink:href="#circle" />
+			<use x="130" xlink:href="#circle" />
+			<use x="140" xlink:href="#circle" />
+			<use x="150" xlink:href="#circle" />
+			<use x="160" xlink:href="#circle" />
+		</g>
+	</defs>
+	<use xlink:href="#line" />
+	<use y="10" xlink:href="#line" />
+	<use y="20" xlink:href="#line" />
+	<use y="30" xlink:href="#line" />
+	<use y="40" xlink:href="#line" />
+	<use y="50" xlink:href="#line" />
+	<use y="60" xlink:href="#line" />
+	<use y="70" xlink:href="#line" />
+	<use y="80" xlink:href="#line" />
+	<use y="90" xlink:href="#line" />
+	<use y="100" xlink:href="#line" />
+	<use y="110" xlink:href="#line" />
+	<use y="120" xlink:href="#line" />
+	<use y="130" xlink:href="#line" />
+	<use y="140" xlink:href="#line" />
+	<use y="150" xlink:href="#line" />
+	<use y="160" xlink:href="#line" />
+	<use y="170" xlink:href="#line" />
+	<use y="180" xlink:href="#line" />
+	<use y="190" xlink:href="#line" />
+	<use y="200" xlink:href="#line" />
+	<use y="210" xlink:href="#line" />
+	<use y="220" xlink:href="#line" />
+	<use y="230" xlink:href="#line" />
+	<use y="240" xlink:href="#line" />
+	<use y="250" xlink:href="#line" />
+</svg> 
